@@ -1,0 +1,56 @@
+.product-list{
+    box-sizing: border-box;
+}
+.product-list h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.product-list-form-container{
+    text-align: center;
+}
+.product-list-form-container form{
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 5px 10px 30px lightgrey ;
+}
+
+.product-list-form-container form .input-label{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product-list-form-container form .input-label .pl-input{
+    padding: 5px;
+    min-width: 400px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.product-list-form-container form .input-label .pl-input:focus{
+    border: 2px solid blue;
+}
+
+.product-list-form-container form .product-list-button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+::placeholder{
+    font-size: small;
+    color: aqua;
+    text-align: center;
+}
+.product-list-display-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}

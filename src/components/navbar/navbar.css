@@ -1,0 +1,40 @@
+.navContainer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 105px;
+    color: white;
+}
+.pages{
+    margin-right: 105px;
+    text-decoration: none;
+}
+
+.pagelist{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin-left: 20px;
+    text-decoration:none !important;
+    color: white;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: coral;
+}
+li:hover{
+    color: coral;
+}
+.logo .link h2{
+    color: white;
+}
+.logo .link h2:hover{
+    color: coral;
+}

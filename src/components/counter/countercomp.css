@@ -1,0 +1,83 @@
+.counterContainer{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.counter{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter .add{
+    padding: 10px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ /* .counter .value{
+   
+ } */
+ .counter .value input{
+    width: 100px;
+    margin: 0px 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+ }
+ .counter .subtract{
+    padding: 10px;
+    width: 70px;
+    border: 1px solid red;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reset{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    border: 1px solid gray;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+::placeholder{
+    color: blue;
+    font-size: large;
+}
+input[type=text] ::placeholder{
+    color: red;
+}

@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+
+
+}
+
+@media (max-width:700px){
+    .header{
+        font-size: small;
+    }
+}
+@media (max-width:1069px){
+   
+}

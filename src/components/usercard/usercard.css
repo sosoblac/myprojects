@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profileImage{
+    border-radius: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.userContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1px;
+}
+.userContent h1{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+.userContent h3{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.userContent p{
+    display: block;
+    padding: 0px 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
